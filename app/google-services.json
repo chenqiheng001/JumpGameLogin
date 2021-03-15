@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "435749757817",
+    "project_id": "andriodlogin-fe87d",
+    "storage_bucket": "andriodlogin-fe87d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435749757817:android:48eafc2ea1cf2f196b85a8",
+        "android_client_info": {
+          "package_name": "com.example.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "435749757817-7s0csu7q3tqcdhnhm1famnsjihpog3qb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7mUzUb9wYHoAgahVIW_K2AUyFJm92qgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "435749757817-7s0csu7q3tqcdhnhm1famnsjihpog3qb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
