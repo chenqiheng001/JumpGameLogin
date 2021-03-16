@@ -115,6 +115,11 @@ public class Login extends AppCompatActivity {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         String mailString = resetText.getText().toString();
+                        if(!isValidEmailAddress(mailString) || mailString.length() <= 0){
+                            Toast.makeText(Login.this, "Error the email is not valid", Toast.LENGTH_SHORT).show();
+                            return;
+                        }
+
                         fAuth.sendPasswordResetEmail(mailString).addOnSuccessListener(new OnSuccessListener<Void>() {
                             @Override
                             public void onSuccess(Void aVoid) {

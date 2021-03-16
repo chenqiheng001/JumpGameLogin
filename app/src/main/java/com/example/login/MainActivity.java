@@ -93,6 +93,10 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         String newNickname = resetText.getText().toString();
+                        if(newNickname.length() <= 0){
+                            Toast.makeText(MainActivity.this, "The nickname cannot be empty", Toast.LENGTH_SHORT).show();
+                            return;
+                        }
                         updateMap.put("nickname",newNickname);
                         updateMap.put("email",email.getText().toString());
                         updateMap.put("high_score", highScore.getText().toString());
